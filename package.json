@@ -1,0 +1,37 @@
+{
+  "name": "avs-scaffold",
+  "version": "1.0.0",
+  "description": "CLI tool to scaffold new AVS projects with smart contracts and off-chain components",
+  "main": "dist/cli.js",
+  "bin": {
+    "avs-scaffold": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "dev": "ts-node src/cli.ts"
+  },
+  "keywords": [
+    "eigenlayer",
+    "avs",
+    "scaffold",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.6",
+    "handlebars": "^4.7.8",
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "@types/inquirer": "^8.2.10",
+    "@types/fs-extra": "^11.0.4",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+}
+
